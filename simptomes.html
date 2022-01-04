@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ca-ES">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Carles Melgarejo Vila">
+		<meta name="description" content="Col·labora amb Petinder fent-te soci.">
+
+		<link rel="icon" href="images/icon.svg" type="image/x-icon">
+
+		<title>Fes-te soci - Petinder</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@800&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/estils.css">
+	</head>
+
+	<body class="simptomes">
+		<header id="top">
+			<div class="header-wrapper">
+				<h1>
+					<a href="index.html#top">
+						<span>No hi ha planeta B</span>
+						1,5 ºC
+					</a>
+				</h1>
+
+				<nav>
+					<ul>
+						<li><a href="simptomes.html">Símptomes del canvi climàtic</a></li>
+						<li><a href="videos.html">Vídeos</a></li>
+						<li><a href="cop26.html">COP26</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<h1>Fes-te soci</h1>
+
+			<p>
+				Col·labora amb Petinder fent-te soci per només 15 euros mensuals. Amb molt poc pots ajudar molt als nostres amics
+				peluts. A més, pots comprar la nostra exclusiva samarreta per només 10 euros que s'afegiran al teu primer pagament.
+				Omple el següent formulari per a unir-te a nosaltres:
+			</p>
+
+			<form id="fes-te-soci">
+				<fieldset>
+					<legend>Dades personals</legend>
+					<label for="nom">Nom <abbr title="Aquest camp és obligatori">*</abbr></label>
+					<input id="nom" name="nom" type="text" placeholder="Nom" pattern="[a-zA-Z\s'\-]{2,64}" required="required"/>
+			
+					<label for="cognoms">Cognoms <abbr title="Aquest camp és obligatori">*</abbr></label>
+					<input id="cognoms" name="cognoms" type="text" placeholder="Cognoms" pattern="[a-zA-Z\s'\-]{2,128}" required="required"/>
+
+					<label for="email">Correu electrònic <abbr title="Aquest camp és obligatori">*</abbr></label>
+					<input id="email" name="email" type="email" placeholder="Correu electrònic" pattern="[\w.%+-]+@[\w.-]+\.[a-z A-Z]{2,6}" required="required"/>
+
+					<label for="dni">DNI <abbr title="Aquest camp és obligatori">*</abbr></label>
+					<input id="dni" name="dni" type="text" placeholder="DNI" pattern="[0-9]{8}[a-z A-Z]{1}" required="required"/>
+
+					<label for="date">Data de naixement <abbr title="Aquest camp és obligatori">*</abbr></label>
+					<input id="date" name="date" type="date" required="required"/>
+				</fieldset>
+			
+				<fieldset>
+					<legend>Adreça</legend>
+					<label for="address">Carrer i número <abbr title="Aquest camp és obligatori">*</abbr></label>
+					<input id="address" name="address" type="text" placeholder="Carrer i número" required="required"/>
+
+					<label for="ciutat">Ciutat <abbr title="Aquest camp és obligatori">*</abbr></label>
+					<input id="ciutat" name="ciutat" type="text" placeholder="Ciutat" required="required"/>
+
+					<label for="provincia">Província <abbr title="Aquest camp és obligatori">*</abbr></label>
+					<input id="provincia" name="provincia" type="text" placeholder="Província" required="required"/>
+
+					<label for="codipostal">Codi Postal <abbr title="Aquest camp és obligatori">*</abbr></label>
+					<input id="codipostal" name="codipostal" type="text" placeholder="Codi Postal" required="required"/>
+
+					<label for="pais">País</label>
+					<select id="pais" name="pais">
+						<option disabled selected>Seleccionar</option>
+						<option value="andorra">Andorra</option>
+						<option value="spain">España</option>
+						<option value="france">França</option>
+						<option value="others">Altres</option>
+					</select>
+				</fieldset>
+
+				<fieldset>
+					<legend>Dades de pagament i samarreta</legend>
+					
+					<h2>Mètode de pagament</h2>
+					<input id="transferencia" name="pagament" type="radio" value="transferencia" checked/>
+					<label for="transferencia">Transferència</label>
+
+					<input id="targeta" name="pagament" type="radio" value="targeta"/>
+					<label for="targeta">Targeta de crèdit</label>
+
+					<input id="paypal" name="pagament" type="radio" value="paypal"/>
+					<label for="paypal">Paypal</label>
+
+					<h2>Samarreta</h2>
+					<p>
+						Si vols que t'enviem la samarreta Petinder per 10 € més, selecciona la talla a continuació.
+					</p>
+
+					<label for="talla">Talla samarreta</label>
+					<select id="talla" name="talla">
+						<option value="no_vull_samarreta">No vull samarreta</option>
+
+						<optgroup label="Dones">
+							<option value="s">S</option>
+							<option value="m">M</option>
+							<option value="l">L</option>
+							<option value="xl">XL</option>
+						</optgroup>
+
+						<optgroup label="Homes">
+							<option value="s">S</option>
+							<option value="m">M</option>
+							<option value="l">L</option>
+							<option value="xl">XL</option>
+							<option value="xxl">XXL</option>
+						</optgroup>
+					</select>
+				</fieldset>
+
+				<p class="avis-camps-obligatoris">* Tots els camps marcats són obligatoris</p>
+
+				<input id="politicaprivacitat" name="politicaprivacitat" type="checkbox" value="accepto_politica" required="required"/>
+				<label for="politicaprivacitat">He llegit i accepto la política de privacitat i les condicions d’ús</label>
+
+				<button type="submit">Enviar</button>
+			</form>
+		</main>
+
+		<footer>
+			<ul class="termes-legals">
+				<li><a href="#">Sobre nosaltres</a></li>
+				<li><a href="#">Avís legal</a></li>
+				<li><a href="#">Política de privacitat</a></li>
+				<li><a href="#">Política de cookies</a></li>
+			</ul>
+
+			<ul class="xarxes-socials">
+				<li><a href="#"><img src="images/twitter.svg" alt="Twitter"></a></li>
+				<li><a href="#"><img src="images/instagram.svg" alt="Instagram"></a></li>
+				<li><a href="#"><img src="images/youtube.svg" alt="Youtube"></a></li>
+			</ul>
+
+			<p>
+				Activitat realitzada per Carles Melgarejo Vila, per a l'assignatura HTML
+				i CSS. Primer semestre del curs 2021-2022
+			</p>
+		</footer>
+	</body>
+</html>
