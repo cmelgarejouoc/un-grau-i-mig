@@ -323,6 +323,7 @@ header .header-wrapper > nav ul li a.active{
 	.videos main > ul li iframe{
 		width: 41.3rem;
 		height: 23.3rem;
+		border: 0;
 	}
 
 	.videos main > ul li p{
