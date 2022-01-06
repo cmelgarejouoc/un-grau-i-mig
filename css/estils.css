@@ -242,6 +242,7 @@ header .header-wrapper > nav ul li a.active{
 	.home-page main section:last-child form label{
 		font-size: 1.05rem;
 		margin-left: 0.4rem;
+		display: none;
 	}
 
 	.home-page main section:last-child form button{
