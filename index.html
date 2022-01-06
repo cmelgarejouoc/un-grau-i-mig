@@ -11,7 +11,7 @@
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,800;1,400;1,600&display=swap" rel="stylesheet">
 
 		<link rel="stylesheet" href="css/estils.css">
 	</head>
@@ -19,27 +19,26 @@
 	<body class="home-page">
 		<header id="top">
 			<div class="header-wrapper">
-				<h1>
-					<a href="index.html#top">
-						<span>No hi ha planeta B</span>
-						1,5 ºC
-					</a>
-				</h1>
+				<p>No hi ha planeta B</p>
+
+				<a href="index.html#top">
+					1,5 ºC
+				</a>
 
 				<nav>
 					<ul>
 						<li><a href="simptomes.html">Símptomes del canvi climàtic</a></li>
 						<li><a href="videos.html">Vídeos</a></li>
-						<li><a href="cop26.html">COP26</a></li>
+						<li><a href="cop26.html"><abbr title="Conferència de les Parts, 26">COP26</abbr></a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 
 		<main>
-			<section>
-				<h2>La crisi climàtica, una carrera que podem guanyar?</h2>
-			</section>
+			<header>
+				<h1>La crisi climàtica, una carrera que podem guanyar?</h1>
+			</header>
 
 			<section>
 				<h2>Què és Un grau i mig?</h2>
@@ -55,6 +54,87 @@
 					volem mantenir informats i atents a les iniciatives d'acció climàtica.
 				</p>
 			</section>
+
+			<section>
+				<h2>Notícies</h2>
+
+				<div class="news-flex-wrapper">
+					<article>
+						<img src="images/n-greta-thunberg.jpg" alt="Foto de Greta Thunberg">
+
+						<time datetime="2021-11-14">14.11.2021</time>
+
+						<h3><a href="#">Greta Thunberg lamenta l'acord de la <abbr title="Conferència de les Parts, 26">COP26</abbr></a></h3>
+
+						<p>
+							<q>Bla, bla, bla</q>. Aquesta és la descripció que Greta Thunberg ha
+							fet de l'acord que ha posat fi a la <abbr title="Conferència de les Parts, 26">COP26</abbr> de Glasgow …
+						</p>
+
+						<a href="#">Llegir-ne més</a>
+					</article>
+
+					<article>
+						<img src="images/n-delhi.jpg" alt="">
+
+						<time datetime="2021-11-13">13.11.2021</time>
+
+						<h3><a href="#">L'estat indi de Delhi tanca escoles per la contaminació de
+							l'aire</a></h3>
+
+						<p>
+							El Govern ha ordenat el tancament d'escoles, ha paralitzat la
+							construcció i ha decretat l'obligatorietat que els funcionaris
+							treballin des de casa, degut a la contaminació de l'aire …
+						</p>
+
+						<a href="#">Llegir-ne més</a>
+					</article>
+
+					<article>
+						<img src="images/n-estres.jpg" alt="">
+
+						<time datetime="2021-10-07">07.10.2021</time>
+
+						<h3><a href="#">L'ansietat climàtica: un problema de salut mental</a></h3>
+
+						<p>
+							Diversos estudis asseguren que l'escenari apocalíptic que
+							augura el canvi climàtic causa estrès, sobretot en infants i
+							adolescents …
+						</p>
+
+						<a href="#">Llegir-ne més</a>
+					</article>
+				</div>
+			</section>
+
+			<section>
+				<h2>Subscriu-te al nostre butlletí de notícies</h2>
+
+				<form id="subscriu-me">
+					<input id="nom" name="nom" type="text" placeholder="Nom" pattern="[a-zA-Z\s'\-]{2,64}" required="required"/>
+
+					<input id="email" name="email" type="email" placeholder="Correu electrònic" pattern="[\w.%+-]+@[\w.-]+\.[a-z A-Z]{2,6}" required="required"/>
+
+					<p>
+						INFORMACIÓ SOBRE
+						PROTECCIÓ DE DADES D’<strong>Un grau i mig</strong>. <strong>Finalitats</strong>: recollida de
+						dades per a l'enviament d'informació. <strong>Legitimació</strong>: Consentiment
+						de l'interessat. <strong>Destinataris</strong>: No estan previstes cessions de
+						dades a tercers, excepte obligació legal. <strong>Drets</strong>: Pot retirar el seu
+						consentiment en qualsevol moment, així com accedir, rectificar,
+						suprimir les seves dades i altres drets dirigint-se a
+						<a href="#">info@ungrauimig.info</a>. <strong>Informació Addicional</strong>: Pot ampliar la
+						informació en l'enllaç d'<a href="#">Avís legal</a> i <a href="#">Política de privacitat</a>.
+					</p>
+	
+					<input id="politicaprivacitat" name="politicaprivacitat" type="checkbox" value="accepto_politica" required="required"/>
+					<label for="politicaprivacitat">He llegit i accepto la política de privacitat</label>
+	
+					<button type="submit">Subscriu-me</button>
+				</form>
+			</section>
 		</main>
 
 		<footer>
@@ -66,7 +146,7 @@
 					<li class="circle"></li>
 					<li><a href="#">Política de privacitat</a></li>
 					<li class="circle"></li>
-					<li><a href="#">Política de cookies</a></li>
+					<li><a href="#">Política de <i lang="en">cookies</i></a></li>
 				</ul>
 
 				<ul>
@@ -74,11 +154,13 @@
 					<li><a href="#"><img src="images/instagram.svg" alt="Instagram"></a></li>
 					<li><a href="#"><img src="images/youtube.svg" alt="Youtube"></a></li>
 				</ul>
-
+				
 				<p>
-					Activitat realitzada per Carles Melgarejo Vila, per a l'assignatura HTML
-					i CSS. Primer semestre del curs 2021-2022
+					Activitat realitzada per Carles Melgarejo Vila, per a l'assignatura <abbr title="HyperText Markup Language">HTML</abbr>
+					i <abbr title="Cascading Style Sheets">CSS</abbr>. Primer semestre del curs 2021-2022
 				</p>
+
+				<a href="#"><</a>
 			</div>
 		</footer>
 	</body>
