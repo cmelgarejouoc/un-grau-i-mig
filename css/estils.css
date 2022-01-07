@@ -16,10 +16,6 @@ html {
 	box-sizing: border-box;
 }
 
-body{
-
-}
-
 abbr{
 	text-decoration: none;
 }
@@ -243,7 +239,7 @@ header .header-wrapper > nav ul li a.active{
 		margin-left: 0.4rem;
 		display: none;
 	}
-	.home-page main section:last-child form label:last-child{
+	.home-page main section:last-child form label#legallabel{
 		display: inline-block;
 	}
 	.home-page main section:last-child form button{
