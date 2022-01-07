@@ -243,7 +243,9 @@ header .header-wrapper > nav ul li a.active{
 		margin-left: 0.4rem;
 		display: none;
 	}
-
+	.home-page main section:last-child form label:last-child{
+		display: inline-block;
+	}
 	.home-page main section:last-child form button{
 		display: block;
 		margin: 1.9rem 0 0 0;
