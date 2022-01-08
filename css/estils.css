@@ -37,7 +37,7 @@ header#top{
 }
 
 header .header-wrapper{
-	max-width: 1111px;
+	max-width: 1163px;
 	text-align: center;
 }
 
@@ -120,13 +120,13 @@ header .header-wrapper > nav ul li a.active{
 		font-weight: 400;
 		font-size: 4rem;
 		color: rgb(255,255,255);
-		max-width: 1111px;
+		max-width: 1163px;
 		padding: 7.4rem 1.3rem 8rem;
 		line-height: 1.4;	
 	}
 
 	.home-page main > section{
-		max-width: 1111px;
+		max-width: 1163px;
 		padding: 0 1.5rem 0 1.4rem;
 		margin: 0 0 8rem 0;
 	}
@@ -199,13 +199,13 @@ header .header-wrapper > nav ul li a.active{
 	}
 
 	.home-page main section:last-child h2{
-		max-width: 1111px;
+		max-width: 1163px;
 		margin: 0 0 1.4rem 0;
 		line-height: 1.1;
 	}
 
 	.home-page main section:last-child form{
-		max-width: 1111px;
+		max-width: 1163px;
 		padding: 0 3.2rem;
 	}
 
@@ -426,7 +426,7 @@ header .header-wrapper > nav ul li a.active{
 	}
 
 	footer .footer-wrapper{
-		max-width: 1111px;
+		max-width: 1163px;
 		color: rgb(255, 255, 255);
 		font-weight: 600;
 		font-size: 1.9rem;
@@ -497,6 +497,7 @@ header .header-wrapper > nav ul li a.active{
 		}
 		header .header-wrapper {
 			text-align: left;
+			padding: 0 2.6rem;
 		}
 		header .header-wrapper p{
 			font-size: 1.9rem;
@@ -519,6 +520,7 @@ header .header-wrapper > nav ul li a.active{
 		/* MAIN STYLES */
 		main {
 			margin: 0;
+			padding: 4.4rem 0 5rem;
 		}
 		main > h1{
 			font-size: 3.9rem;
@@ -536,10 +538,11 @@ header .header-wrapper > nav ul li a.active{
 		.home-page main header{
 			background-position: top center;
 			background-size: 131%;
+			padding: 0;
 		}
 		.home-page main > header h1{
 			font-size: 8rem;
-			padding: 10.4rem 0 12rem;
+			padding: 10.4rem 2.6rem 12rem;
 		}
 		.home-page main section h2{
 			margin: 5rem 0 1.8rem 0;
@@ -551,13 +554,14 @@ header .header-wrapper > nav ul li a.active{
 		}
 		.home-page main > section{
 			margin: 0 auto 5rem auto;
-			padding: 0 0 0 0;
+			padding: 0 2.6rem;
 		}
 		.home-page main > section > div{
 			display: flex;
 		}
 		.home-page main > section:nth-of-type(2){
-			max-width: 1172px;
+			max-width: 1163px;
+			padding: 0;
 		}
 		.home-page main section .news-flex-wrapper article{
 			flex: 1;
@@ -595,10 +599,10 @@ header .header-wrapper > nav ul li a.active{
 		.simptomes main section{
 			display: grid;
 			grid-template-columns: 1fr 1fr 1fr;
-			max-width: 1111px;
+			max-width: 1163px;
 			margin: 0 auto 4.2rem auto;
 			background-color: initial;
-			padding: 0;
+			padding: 0 2.6rem;
 			border-radius: 0;
 		}
 		.simptomes main section:nth-child(even) .box1{
@@ -650,14 +654,18 @@ header .header-wrapper > nav ul li a.active{
 
 		/* VIDEOS */
 		.videos main{
-			padding: 4.4rem 1.4rem 10rem;
+			padding: 4.4rem 0 10rem;
+		}
+		.videos main h1{
+			margin: 0 0 4.5rem 0;
 		}
 		.videos main > ul{
 			display: grid;
 			grid-template-columns: 1fr 1fr;
 			grid-gap: 2.6rem;
-			max-width: 1111px;
+			max-width: 1163px;
 			margin: 0 auto;
+			padding: 0 2.6rem;
 		}
 		.videos main > ul li{
 			background-color: rgb(255,255,255);
@@ -665,8 +673,9 @@ header .header-wrapper > nav ul li a.active{
 			list-style: none;
 		}
 		.videos main > ul li iframe{
-			width: 54.3rem;
-			height: 30.5rem;
+			width: 100%;
+			height: 26vw;
+			max-height: 30.5rem;
 		}
 
 		/* COP26 */
@@ -675,9 +684,9 @@ header .header-wrapper > nav ul li a.active{
 		}
 		.cop26 main > section{
 			display: flex;
-			max-width: 1111px;
+			max-width: 1163px;
 			margin: 0 auto;
-			padding: 1.5rem 1rem 0 1.6rem;
+			padding: 1.5rem 3.6rem 0 4.2rem;
 		}
 		.cop26 main > section .box1{
 			flex: 1 16rem;
@@ -688,7 +697,7 @@ header .header-wrapper > nav ul li a.active{
 			margin: 0 0 1.7rem 0;
 		}
 		.cop26 main > section .box1 img{
-			margin: 0 0 1.7rem 0;
+			margin: 0 0 1.7rem 1.5rem;
 		}
 		.cop26 main > section .box1 dl dd{
 			font-size: 1.77rem;
@@ -722,10 +731,10 @@ header .header-wrapper > nav ul li a.active{
 
 		footer {
 			text-align: left;
-			padding: 6.5rem 0 3.4rem 0;
+			padding: 6.5rem 0 3.4rem;
 		}
 		footer .footer-wrapper{
-			padding: 0;
+			padding: 0 2.6rem;
 			font-size: 1.9rem;
 		}
 		footer .footer-wrapper ul li{
