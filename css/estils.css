@@ -110,7 +110,8 @@ header .header-wrapper > nav ul li a.active{
 	}
 
 	.home-page main header{
-		background-image: url('../images/bg-hero-home.jpg');
+		background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/bg-hero-home.jpg");
+		/*background-image: url('../images/bg-hero-home.jpg');*/
 		background-position: center left;
 		background-size: cover;
 		background-repeat: no-repeat;
