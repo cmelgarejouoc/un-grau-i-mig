@@ -588,6 +588,9 @@ header .header-wrapper > nav ul li a.active{
 			max-width: 549px;
 			padding: 0;
 		}
+		.home-page main section:last-child form p{
+			text-align: justify;
+		}
 		.home-page main section:last-child form input[type="text"],
 		.home-page main section:last-child form input[type="email"]{
 			width: 100%;	
@@ -595,7 +598,7 @@ header .header-wrapper > nav ul li a.active{
 		.home-page main section:last-child h2 {
 			margin: 0 auto 1.4rem;
 		}
-
+		
 		/* SIMPTOMES */
 		.simptomes main section{
 			display: grid;
