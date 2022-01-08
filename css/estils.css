@@ -537,7 +537,7 @@ header .header-wrapper > nav ul li a.active{
 		}
 		.home-page main header{
 			background-position: top center;
-			background-size: 131%;
+			background-size: 100%;
 			padding: 0;
 		}
 		.home-page main > header h1{
