@@ -221,7 +221,7 @@ header .header-wrapper > nav ul li a.active{
 	}
 
 	.home-page main section:last-child form p{
-		font-size: 1.05rem;
+		font-size: 1.1rem;
 		margin: 1.6rem 0 2.5rem 0;
 		padding: 0 0.5rem 0 0;
 	}
@@ -236,7 +236,7 @@ header .header-wrapper > nav ul li a.active{
 	}
 
 	.home-page main section:last-child form label{
-		font-size: 1.1rem;
+		font-size: 1.05rem;
 		margin-left: 0.4rem;
 		display: none;
 	}
