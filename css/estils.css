@@ -36,19 +36,19 @@ header#top{
 	box-shadow: 0 3px 28px 0px rgba(121, 121, 121, 0.1);
 }
 
-header .header-wrapper{
+header > div{
 	max-width: 1163px;
 	text-align: center;
 }
 
-header .header-wrapper p{
+header > div p{
 	text-transform: uppercase;
 	display: block;
 	font-weight: 400;
 	font-size: 1.3rem;
 }
 
-header .header-wrapper > a{
+header > div > a{
 	font-weight: 800;
 	font-size: 5.7rem;
 	text-decoration: none;
@@ -56,11 +56,11 @@ header .header-wrapper > a{
 	line-height: 1.1;
 }
 
-header .header-wrapper > nav{
+header > div > nav{
 	margin: 2.78rem 0 0 0;
 }
 
-header .header-wrapper > nav ul li{
+header > div > nav ul li{
 	list-style: none;
 	margin: 0.6rem 0;
 	color: rgb(0, 0, 0);
@@ -70,16 +70,16 @@ header .header-wrapper > nav ul li{
 	line-height: 1.1;
 }
 
-header .header-wrapper > nav ul li.active{
+header > div > nav ul li.active{
 	color: rgb(189, 55, 0);
 }
 
-header .header-wrapper > nav ul li a{
+header > div > nav ul li a{
 	text-decoration: none;
 	color: rgb(0, 0, 0);
 }
 
-header .header-wrapper > nav ul li a:hover{
+header > div > nav ul li a:hover{
 	color: rgba(0,0,0,0.5);
 	text-decoration: none;
 }
@@ -257,12 +257,12 @@ header .header-wrapper > nav ul li a:hover{
 	.simptomes main section > div{
 		background-color: rgb(255,255,255);
 	}
-	.simptomes main section .box1{
+	.simptomes main section  div:nth-child(odd){
 		border-top-left-radius: 9px;
 		border-top-right-radius: 9px;
 		padding: 3.7rem 2.1rem 0 2.4rem;
 	}
-	.simptomes main section .box2{
+	.simptomes main section  div:nth-child(even){
 		border-bottom-left-radius: 9px;
 		border-bottom-right-radius: 9px;
 		padding: 1.2rem 2.1rem 1.4rem 2.4rem;
@@ -335,7 +335,7 @@ header .header-wrapper > nav ul li a:hover{
 	}
 
 /* COP26 */
-	.cop26 main section .box1{
+	.cop26 main section div:nth-child(1){
 		margin: 0 0 3rem 0;
 	}
 
@@ -349,24 +349,24 @@ header .header-wrapper > nav ul li a:hover{
 		margin: 0 0 2rem 0;
 	}
 
-	.cop26 main section .box1 img{
+	.cop26 main section div:nth-child(1) img{
 		margin: 0 0 2rem 0;
 	}
 
-	.cop26 main section .box1 dl dt{
+	.cop26 main section div:nth-child(1) dl dt{
 		font-weight: 600;
 		text-transform: uppercase;
 		font-size: 1.3rem;
 		margin: 0 0 0.1rem 0;
 	}
 
-	.cop26 main section .box1 dl dd{
+	.cop26 main section div:nth-child(1) dl dd{
 		font-size: 1.6rem;
 		line-height: 1.5;
 		margin: 0 0 1.6rem 0;	
 	}
 
-	.cop26 main section .box1 dl dd a{
+	.cop26 main section div:nth-child(1) dl dd a{
 		color: rgb(189, 55, 0);
 		display: block;
 		text-decoration: none;
@@ -375,32 +375,32 @@ header .header-wrapper > nav ul li a:hover{
 		margin: 0 0 1.4rem 0;
 	}
 
-	.cop26 main section .box1 dl dd a:hover{
+	.cop26 main section div:nth-child(1) dl dd a:hover{
 		color: rgb(0, 0, 0);
 		text-decoration: underline;
 	}
 
-	.cop26 main section .box2 p{
+	.cop26 main section div:nth-child(2) p{
 		font-size: 1.6rem;
 		line-height: 1.5;
 		margin: 0 0 1.6rem 0;	
 	}
 
-	.cop26 main section .box2 p strong{
+	.cop26 main section div:nth-child(2) p strong{
 		font-weight: 600;
 	}
 
-	.cop26 main section  .box2 > ol{
+	.cop26 main section  div:nth-child(2) > ol{
 		margin: 0 0 2.8rem 0;
 	}
 
-	.cop26 main section  .box2 > ol li{
+	.cop26 main section  div:nth-child(2) > ol li{
 		font-size: 1.6rem;
 		line-height: 1.5;
 		margin: 0 0 1.6rem 3.1rem;
 	}
 
-	.cop26 main section  .box2 blockquote {
+	.cop26 main section  div:nth-child(2) blockquote {
 		background-color: rgb(255,255,255);
 		border-left: 5px solid rgb(189, 55, 0);
 		font-size: 1.6rem;
@@ -409,12 +409,12 @@ header .header-wrapper > nav ul li a:hover{
 		padding: 1.8rem 1.7rem 1.4rem;
 	}
 	
-	.cop26 main section  .box2 blockquote p{
+	.cop26 main section  div:nth-child(2) blockquote p{
 		margin-bottom: 1.6rem;
 		font-style: italic;
 	}
 
-	.cop26 main section  .box2 blockquote cite{
+	.cop26 main section  div:nth-child(2) blockquote cite{
 		font-weight: 600;
 	}
 
@@ -425,7 +425,7 @@ header .header-wrapper > nav ul li a:hover{
 		position: relative;
 	}
 
-	footer .footer-wrapper{
+	footer > div{
 		max-width: 1163px;
 		color: rgb(255, 255, 255);
 		font-weight: 600;
@@ -433,46 +433,46 @@ header .header-wrapper > nav ul li a:hover{
 		padding: 6rem 3rem 3.5rem;
 	}
 
-	footer .footer-wrapper ul li{
+	footer > div ul li{
 		list-style: none;
 	}
 
-	footer .footer-wrapper ul li.circle{
+	footer > div ul:first-child li:nth-child(even){
 		display: none;
 	}
 
-	footer .footer-wrapper ul li a{
+	footer > div ul li a{
 		color: rgb(255, 255, 255);
 		text-decoration: none;
 	}
 
-	footer .footer-wrapper ul li a i{
+	footer > div ul li a i{
 		font-style: normal;
 	}
 
-	footer .footer-wrapper ul li a:hover {
+	footer > div ul li a:hover {
 		color: rgb(189, 55, 0);
 		text-decoration: none;
 	}
 
-	footer .footer-wrapper ul:last-of-type{
+	footer > div ul:last-of-type{
 		margin: 3rem auto;
 	}
 
-	footer .footer-wrapper ul:last-of-type li{
+	footer > div ul:last-of-type li{
 		display: inline-block;
 	}
 
-	footer .footer-wrapper ul:last-of-type li a:hover {
+	footer > div ul:last-of-type li a:hover {
 		opacity: 0.7;
 	}
 
-	footer .footer-wrapper p{
+	footer > div p{
 		color: rgb(255, 255, 255);
 		line-height: 1.6;
 	}
 
-	footer .footer-wrapper > a:last-of-type{
+	footer > div > a:last-of-type{
 		transform: rotate(90deg);
 		color: rgb(255, 255, 255);
 		line-height: 0;
@@ -494,20 +494,20 @@ header .header-wrapper > nav ul li a:hover{
 		header#top {
 			height: 20.5rem;
 		}
-		header .header-wrapper {
+		header > div {
 			text-align: left;
 			padding: 0 2.6rem;
 		}
-		header .header-wrapper p{
+		header > div p{
 			font-size: 1.9rem;
 		}
-		header .header-wrapper > a{
+		header > div > a{
 			font-size: 7rem;
 		}
-		header .header-wrapper > nav{
+		header > div > nav{
 			margin: 2.8rem 0.3rem;
 		}
-		header .header-wrapper > nav ul li{
+		header > div > nav ul li{
 			display: inline-block;
 			margin: 0 3.2rem 0 0;
 			font-size: 1.8rem;
@@ -603,14 +603,14 @@ header .header-wrapper > nav ul li a:hover{
 			row-gap: 4.2rem;
 		}
 
-		.simptomes main section >div.box1{
+		.simptomes main section > div:nth-child(odd){
 			padding: 2rem 1.3rem 2rem 2rem;
 			border-top-left-radius: 9px;
 			border-bottom-left-radius: 9px;
 			border-top-right-radius: 0;
 			grid-column: 2;
 		}
-		.simptomes main section>div.box2{
+		.simptomes main section > div:nth-child(even){
 			padding: 2rem 1.8rem 2rem 0;
 			border-top-right-radius: 9px;
 			border-bottom-right-radius: 9px;
@@ -620,17 +620,17 @@ header .header-wrapper > nav ul li a:hover{
 		}
 		
 		/* Files Senars (odd) */
-		.simptomes main section>div:nth-child(4n+1){
+		.simptomes main section > div:nth-child(4n+1){
 			grid-column: 1;
 		}
-		.simptomes main section>div:nth-child(4n+2){
+		.simptomes main section > div:nth-child(4n+2){
 			grid-column: 2;
 		}
-		.simptomes main section .box2 h2{
+		.simptomes main section div:nth-child(even) h2{
 			font-size: 2.3rem;
 			margin: 0 0 0.6rem 0;
 		}
-		.simptomes main section .box2 p{
+		.simptomes main section div:nth-child(even) p{
 			font-size: 1.6rem;
 			line-height: 1.6;
 			text-align: justify;
@@ -678,7 +678,7 @@ header .header-wrapper > nav ul li a:hover{
 			margin: 0 auto;
 			padding: 1.5rem 3.6rem 0 4.2rem;
 		}
-		.cop26 main > section .box1{
+		.cop26 main > section div:nth-child(1){
 			flex: 1 16rem;
 			margin-right: 9.8rem;
 		}
@@ -686,33 +686,33 @@ header .header-wrapper > nav ul li a:hover{
 			font-size: 2.4rem;
 			margin: 0 0 1.7rem 0;
 		}
-		.cop26 main > section .box1 img{
+		.cop26 main > section div:nth-child(1) img{
 			margin: 0 0 1.7rem 1.5rem;
 		}
-		.cop26 main > section .box1 dl dd{
+		.cop26 main > section div:nth-child(1) dl dd{
 			font-size: 1.77rem;
 			line-height: 1.5;
 		}
-		.cop26 main > section .box2{
+		.cop26 main > section div:nth-child(2){
 			flex: 2;
 		}
-		.cop26 main > section .box2 p{
+		.cop26 main > section div:nth-child(2) p{
 			text-align: justify;
 			hyphens: auto;
 			font-size: 1.77rem;
 			line-height: 1.5;
 		}
-		.cop26 main > section .box2 ol{
+		.cop26 main > section div:nth-child(2) ol{
 			margin: 0 0 2.6rem 3rem;
 		}
-		.cop26 main > section .box2 ol li{
+		.cop26 main > section div:nth-child(2) ol li{
 			text-align: justify;
 			hyphens: auto;
 			font-size: 1.77rem;
 			line-height: 1.5;
 			margin: 0 0 1.6rem 0;
 		}
-		.cop26 main > section .box2 blockquote p{
+		.cop26 main > section div:nth-child(2) blockquote p{
 			text-align: justify;
 			hyphens: auto;
 			font-size: 1.79rem;
@@ -723,14 +723,14 @@ header .header-wrapper > nav ul li a:hover{
 			text-align: left;
 			padding: 6.5rem 0 3.4rem;
 		}
-		footer .footer-wrapper{
+		footer > div{
 			padding: 0 2.6rem;
 			font-size: 1.9rem;
 		}
-		footer .footer-wrapper ul li{
+		footer > div ul li{
 			display: inline-block;
 		}
-		footer .footer-wrapper ul li.circle{
+		footer > div ul:first-child li:nth-child(even){
 			border-radius: 50%;
 			width: 0.38rem;
 			background-color: rgb(255, 255, 255);
