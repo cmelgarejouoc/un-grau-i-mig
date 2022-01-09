@@ -142,35 +142,35 @@ header > div > nav ul li a:hover{
 		margin: 0 0 2.5rem 0;
 	}
 
-	.home-page main section .news-flex-wrapper article time{
+	.home-page main section div article time{
 		font-size: 1.55rem;
 		margin: 1.9rem 0 1.5rem;
 		display: block;
 	}
 
-	.home-page main section .news-flex-wrapper article h3{
+	.home-page main section div article h3{
 		font-size: 2rem;
 		font-weight: 600;
 		margin: 0 0 1.5rem;
 	}
 
-	.home-page main section .news-flex-wrapper article h3 a{
+	.home-page main section div article h3 a{
 		color: rgb(189, 55, 0);
 		text-decoration: none;
 		display: block;
 	}
 
-	.home-page main section .news-flex-wrapper article h3 a:hover{
+	.home-page main section div article h3 a:hover{
 		color: rgb(0, 0, 0);
 	}
 
-	.home-page main section .news-flex-wrapper article p{
+	.home-page main section div article p{
 		font-size: 1.6rem;
 		line-height: 1.55;
 		margin: 0 0 1.5rem 0;
 	}
 
-	.home-page main section .news-flex-wrapper article > a{
+	.home-page main section div article > a{
 		font-size: 1.6rem;
 		line-height: 1.5;
 		margin: 0 0 2.5rem 0;
@@ -183,7 +183,7 @@ header > div > nav ul li a:hover{
 		padding-bottom: 0.2rem;
 	}
 
-	.home-page main section .news-flex-wrapper article > a:hover{
+	.home-page main section div article > a:hover{
 		color: rgb(0, 0, 0);
 		border-bottom: 1px dotted rgb(0, 0, 0);
 	}
@@ -558,17 +558,17 @@ header > div > nav ul li a:hover{
 		.home-page main > section:nth-of-type(2){
 			padding: 0;
 		}
-		.home-page main section .news-flex-wrapper article{
+		.home-page main section div article{
 			flex: 1;
 			padding: 0 2.7rem;
 		}
-		.home-page main section .news-flex-wrapper article time{
+		.home-page main section div article time{
 			margin: 1.6rem 0 1.4rem;
 		}
-		.home-page main section .news-flex-wrapper article h3{
+		.home-page main section div article h3{
 			font-size: 2.4rem;
 		}
-		.home-page main section .news-flex-wrapper article p{
+		.home-page main section div article p{
 			font-size: 1.78rem;
 		}
 		.home-page main section:last-child{
