@@ -669,10 +669,8 @@ header > div > nav ul li a:hover{
 		}
 
 		/* COP26 */
-		.cop26 main section {
-			margin: 0 auto 3rem auto;
-		}
 		.cop26 main > section{
+			margin: 0 auto 3rem auto;
 			display: flex;
 			max-width: 1163px;
 			margin: 0 auto;
